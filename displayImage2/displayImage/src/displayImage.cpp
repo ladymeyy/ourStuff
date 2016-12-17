@@ -60,7 +60,7 @@ int main(int argc, char** argv)
 	  for( size_t i = 0; i < lines.size(); i++ )
 	  {
 	    Vec4i l = lines[i];
-	    line( image, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 3, CV_AA);
+	    line( image, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,255,255), 3, CV_AA);
 	  }
 #endif
 //	namedWindow("Display Image_grayscale", CV_WINDOW_AUTOSIZE);
